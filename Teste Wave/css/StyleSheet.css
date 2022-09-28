@@ -29,6 +29,8 @@ body { font-family: Ubuntu; margin: 0px; padding: 0px; background-color: #EEE; }
     .navMenu a:nth-child(4):hover ~ .dot { -webkit-transform: translateX(285px); transform: translateX(285px); -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; opacity: 1; }
 
 
+
+
 .fita { background: #010101; /* position: relative; */ margin: 1% auto; width: 80%; color: #fff; line-height: 40px; height: 40px; font-size: 18px; text-align: center; font-weight: 700; text-transform: uppercase; }
 
 img { max-width: 100%; }
