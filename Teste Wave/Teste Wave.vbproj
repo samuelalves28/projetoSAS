@@ -107,6 +107,7 @@
     <Content Include="Painel\cadastro.aspx" />
     <Content Include="Painel\home.aspx" />
     <Content Include="Painel\login.aspx" />
+    <Content Include="Painel\pedidos.aspx" />
     <Content Include="Painel\produto.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -175,6 +176,13 @@
     <Compile Include="Painel\MasterPainelPage.Master.vb">
       <DependentUpon>MasterPainelPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Painel\pedidos.aspx.designer.vb">
+      <DependentUpon>pedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Painel\pedidos.aspx.vb">
+      <DependentUpon>pedidos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Painel\produto.aspx.designer.vb">
       <DependentUpon>produto.aspx</DependentUpon>
